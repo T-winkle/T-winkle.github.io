@@ -50,7 +50,7 @@
 					<li id="Poesy3" onmouseover="setTab(3);">虞美人</li>
 					<li id="Poesy4" onmouseover="setTab(4);">相见欢</li>
 				</ul>
-			</div>	
+			</div>
 			<div class="poesy-content">
 				<div id="poesy1-content">
 					<table>
@@ -121,18 +121,18 @@
 		for(var i=1;i<=4;i++){
 			var poesy=document.getElementById("poesy"+i+"-content");
 			var li=document.getElementById('Poesy'+i);
-			poesy.style.display= i==number?"block":"none"; 
+			poesy.style.display= i==number?"block":"none";
 			li.className= i==number? "bai":"";
-			// li.style.backgroundColor= i==number? "white":"#ccc"; 
+			// li.style.backgroundColor= i==number? "white":"#ccc";
 		}
 	}
 </script>
 <script src="js/jquery-3.2.1.min.js"></script>
-<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script>
 $('.carousel').carousel({
   interval: 2000
-})
+});
 </script>
 </body>
 </html>
